@@ -1,7 +1,7 @@
 <?php
 
 //NIVEL 1
-include "animal.php";
+include "nivel1\\animal.php";
 
 $gato2= new gato('Luna');
 
@@ -13,7 +13,7 @@ echo $gato2->makeSound()."\n";
 
 //NIVEL 2
 
-include "shape.php";
+include "nivel2y3\\shape.php";
 
 $rectangulo1 = new Rectangulo(5,8);
 
