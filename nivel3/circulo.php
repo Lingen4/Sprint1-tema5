@@ -1,16 +1,8 @@
 <?php
 
-
-abstract class Shape{
-
-   abstract function __construct(int|float $alto, int|float $ancho);  
-   abstract function calcularArea(): int|float;
-}
-
 interface RoundShape{
 
-    public function __construct(int|float $radio);
-    public function getDiametro(): int|float;
+     public function getDiametro(): int|float;
 }
 
 

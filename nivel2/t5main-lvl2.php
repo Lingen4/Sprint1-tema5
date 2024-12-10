@@ -2,6 +2,8 @@
 //NIVEL 2
 
 require_once "shape.php";
+require_once "triangulo.php";
+require_once "rectangulo.php";
 
 $rectangulo1 = new Rectangulo(5,8);
 
