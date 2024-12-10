@@ -1,12 +1,16 @@
 <h1>Sprint 1 Tema 5</h1>
 
-<p> El archivo t5main.php contiene el código para ejecutar los 3 niveles</p>
-<p>Las carpetas contienen las clases animal.php (nivel 1) y shape.php (nivel 2 y 3).
-Son clases abstractas y las herencias (hijas) están dentro del mismo fichero.</p>
 
 <h2> Nivel 1 </h2>
-Animal (abstract class) contiene 2 subclases (Perro y Gato) con el método polimórfico makeSound() para cada uno.
+"animal.php" contiene Animal (abstract class), que a su vez contiene 2 subclases (Perro y Gato) con el método polimórfico makeSound() para cada uno. 
+Se ejecuta desde "t5main-lvl1.php".
 
-<h2> Nivel 2 y 3 </h2>
-Shape (abstract class) contiene 3 subclases (Rectangulo, Cuadrado, Circulo) con el método polimórfico calcularArea(). 
-Circulo contiene 2 variables aparte (radio, diametro). 
+<h2> Nivel 2 </h2>
+shape.php contiene Shape (abstract class), que a su vez contiene 2 subclases (Rectangulo, Cuadrado) con el método polimórfico calcularArea(). 
+Se ejecuta desde "t5main-lvl2.php".
+
+
+<h2> Nivel 3 </h2>
+circulo.php contiene Shape (abstract class), que a su vez contiene 1 interficie (RoundShape) con el método polimórfico calcularArea(). La clase "Circulo" hereda de la clase abstracta "Shape" e implementa la interficie "RoundShape".
+Hereda el método 'calcularArea()' de "Shape" e implementa el '__construct()' y 'getDiametro()' desde "RoundShape".
+Se ejecuta desde "t5main-lvl3.php".
