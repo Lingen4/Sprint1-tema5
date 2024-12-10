@@ -1,19 +1,19 @@
 <?php
 //NIVEL 1
-abstract class animal{
+abstract class Animal{
 
     protected $nombre;
     
-    abstract function __construct($nombre);
+    abstract function __construct(string $nombre);
     abstract public function makeSound();
 }
 
 
 
 
-class gato extends animal {
+class Gato extends Animal {
     
-    public function __construct($nombre)
+    public function __construct(string $nombre)
     {
         $this->nombre=$nombre;
     }
@@ -23,13 +23,13 @@ class gato extends animal {
     }
 
     public function makeSound(){
-        echo "Miau";
+        return "Miau";
     }
 }
 
-class perro extends animal {
+class Perro extends Animal {
 
-    public function __construct($nombre)
+    public function __construct(string $nombre)
     {
         $this->nombre=$nombre;
     }
@@ -39,7 +39,7 @@ class perro extends animal {
     }
 
     public function makeSound(){
-        echo "Guau";
+        return "Guau";
     }
 
 }
