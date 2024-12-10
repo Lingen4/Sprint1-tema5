@@ -11,6 +11,6 @@ Se ejecuta desde "t5main-lvl2.php".
 
 
 <h2> Nivel 3 </h2>
-circulo.php contiene Shape (abstract class), que a su vez contiene 1 interficie (RoundShape) con el método polimórfico calcularArea(). La clase "Circulo" hereda de la clase abstracta "Shape" e implementa la interficie "RoundShape".
-Hereda el método 'calcularArea()' de "Shape" e implementa el '__construct()' y 'getDiametro()' desde "RoundShape".
+circulo.php contiene Shape (abstract class), que a su vez contiene 1 interficie (RoundShape).<p> La clase "Circulo" hereda de la clase abstracta "Shape" e implementa la interficie "RoundShape".</p>
+<p>Hereda el método 'calcularArea()' de "Shape" e implementa el '__construct()' y 'getDiametro()' desde "RoundShape".</p>
 Se ejecuta desde "t5main-lvl3.php".
