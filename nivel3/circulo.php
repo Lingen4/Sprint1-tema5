@@ -1,7 +1,7 @@
 <?php
 
 
-class Circulo extends Shape implements RoundShape{
+class Circulo implements Shape{
 
     private $radio;
   
